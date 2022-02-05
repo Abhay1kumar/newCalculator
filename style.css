@@ -1,0 +1,114 @@
+body{
+   
+    font-family :'Open Sans',sans-serif;
+    background-color: black;
+}
+body, p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom :5px;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/imageBg.jfif);
+    
+
+}
+#calculator{
+    width:320px;
+    height: 520px;
+    /* background-image: url(/jia2.jpg); */
+
+    margin:0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 rgba(248, 244, 244, 0.925),0 6px 20px 0 rgba(245, 242, 242, 0.945);
+}
+#result{
+    height:120px;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empaty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius:50%;
+    border:0;
+    /* border-width: 0; */
+    font-weight: bold;
+    font-size: 15px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding: 20px;
+    font-size:15px;
+    color:#919191;
+}
+#output{
+    text-align: right;
+    height:60px;
+    margin: 10px 20px;
+    font-size:30px;
+}
+.number, .empaty{
+    background-color:#eaedefe0;
+}
+
+.number, .operator{
+    cursor: pointer;
+
+}
+.operator:hover , .number:hover{
+    font-size:20px;
+    background-color:#81e60f07;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus{
+    outline:0;
+}
+button:nth-child(4){
+    font-size:20px;
+    background-color:#20b2aa;
+}
+button:nth-child(8){
+    font-size:20px;
+    background-color:#ee930a;
+}
+button:nth-child(12){
+    font-size:20px;
+    background-color:#df15c4;
+}
+button:nth-child(16){
+    font-size:20px;
+    background-color:#6e17df;
+}
+button:nth-child(20){
+    font-size:20px;
+    background-color:#723d6e;
+}
+
+#img{
+    position: absolute;
+    top: 65%;
+    left:75%;
+    display:flex;
+    /* justify-content: flex-end; */
+    border:0;
+    /* border-radius:50%; */
+    object-fit: cover;
+    box-shadow: 0 10px 6px rgb(103, 103, 196);
+
+}
